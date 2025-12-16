@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Torus';
+}
+
+body{
+    background-color: rgb(37, 3, 53);
+    height: 800px;
+}
+
+header {    
+    background-image: linear-gradient(rgb(101, 2, 139), rgb(57, 39, 77));
+    height: 150px;
+    font-family: 'Torus Bold';
+    border-radius: 0, 10, 10, 0;
+    line-height: 150px;
+    color: #e7ceff;
+    font-size: 25px;
+}
+
+.GameInfo {
+    color: #f7dfff;
+}
+
+input[type='number'],input[type='button'] {
+    border: rgb(84, 2, 139), solid, 1px;
+    background-color:rgb(31, 3, 31);
+    color: #f7dfff;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+select{
+    border: rgb(101, 2, 139), solid, 1px;
+    background-color:rgb(31, 3, 31);
+    color: #f7dfff;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}

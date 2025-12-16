@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number randomiser // Index</title>
+    <script defer src="scripts/random.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Number randomiser</h1>   
+    </header>
+    <br>
+    <main>
+        <form action="">
+            <select name="diffConfig" id="diffConfig">
+                <option value="E">Easy // from 10</option>
+                <option value="N">Normal // from 100</option>
+                <option value="H">Hard // from 1000</option>
+                <option value="EX">Extreme // from 100000</option>
+            </select>
+            <input type="button" value="Set new difficulty" onclick="diffSet()">
+        </form>
+        <br>
+        <br>
+        <form>
+        <input type="number" name="inputNum" id="inputNum" placeholder="1-10">
+
+        <input type="button" value="Check number" onclick="checkNum()">
+
+        </form>
+        <div id="hint" class="GameInfo"></div>
+        <div id="wictory" class="GameInfo"></div>
+    </main>
